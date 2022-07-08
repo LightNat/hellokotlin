@@ -3,6 +3,11 @@ fun main()
     val yes: Boolean = true
     val no: Boolean = false
 
+    println("""|
+        |yes = $yes
+        |no = $no
+    """.trimMargin())
+
     //same as
     //val yes = true
     //val no = false
@@ -44,5 +49,5 @@ fun main()
         (true && false) || true
         false || true
         true
-    */
+    */ //asdasd
 }
