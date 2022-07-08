@@ -21,5 +21,5 @@ fun main()
     println("isOneGreaterThanTwo = $isOneGreaterThanTwo and isOneLessThanTwo = $isOneLessThanTwo")
 
     val and = true && true
-    println(and) //sample
+    println(and)        //true
 }
