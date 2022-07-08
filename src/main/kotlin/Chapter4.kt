@@ -49,5 +49,5 @@ fun main()
         (true && false) || true
         false || true
         true
-    */ //asdasd
+    */
 }
