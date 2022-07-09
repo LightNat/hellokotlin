@@ -34,6 +34,9 @@
 <br>
 
 **Chapter 4**
+- Comparison operators
+- The if expression
+- Loops
 <br>
 
 **Chapter 5**
