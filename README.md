@@ -3,7 +3,7 @@
   - A brief documentation for beginners in kotlin. The following information is included:
 <br>
 
-**What You Need**
+**<i>What You Need</i>**
 <br>
 - IntelliJ IDEA Community Edition 2020.3.2 or later, available at https://www.jetbrains.com/idea/. This is the environment in which you’ll develop the sample code in this book.
 - Kotlin Plugin for IntelliJ IDEA v1.4.20 or later, installed (if not included by default) by going to IntelliJ IDEA Preferences on macOS (or Settings on Windows/ Linux) and choosing Plugins, then searching on “Kotlin”.
