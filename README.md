@@ -39,7 +39,10 @@
 - Loops
 <br>
 
-**Chapter 5**
+**<h3>Chapter 5 (Advanced Control Flow)</h3>**
+- Ranges
+- For Loops
+- When expressions
 <br>
 
 **Chapter 6**
