@@ -13,11 +13,11 @@
 
 <br>
 
-**Chapter 1**
+**<h3>Chapter 1 (Kotlin Environment Development)</h3>**
 - print "Hello, kotlin!"
 <br>
 
-**Chapter 2**
+**<h3>Chapter 2 (Expressions, Variables and Constants)</h3>**
 - Printing out
 - Arithmetic operations
 - Math Functions
@@ -25,7 +25,7 @@
 - Increment and decrement
 <br>
 
-**Chapter 3**
+**<h3>Chapter 3 (Types and Operations)</h3>**
 - Type convertion
 - Strings in kotlin
 - Pair and Triples
@@ -33,7 +33,10 @@
 - Any, Unit and Nothing Types
 <br>
 
-**Chapter 4**
+**<h3>Chapter 4 (Basic Control Flow)</h3>**
+- Comparison operators
+- The if expression
+- Loops
 <br>
 
 **Chapter 5**
