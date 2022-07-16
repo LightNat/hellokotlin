@@ -2,6 +2,10 @@ import java.lang.Math.PI
 import java.lang.Math.sqrt
 
 /*
+    Before moving on, here are some challenges to test your knowledge of variables and constants.
+    You can try the code in IntelliJ IDEA to check your answers. If you get stuck,
+    check out the solutions included in the materials for this chapter.
+
     1. Declare a constant exercises with value 9 and a variable exercisesSolved with
         value 0. Increment this variable every time you solve an exercise (including this
         one).
