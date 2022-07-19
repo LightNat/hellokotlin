@@ -45,7 +45,9 @@
 - When expressions
 <br>
 
-**Chapter 6**
+**<h3>Chapter 6 (Functions)</h3>**
+- Function basics
+- Functions as variables
 <br>
 
 **Chapter 7**
