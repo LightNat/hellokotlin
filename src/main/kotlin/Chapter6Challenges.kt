@@ -7,21 +7,27 @@ import kotlin.math.sqrt
     write a function to determine whether or not a number is prime. That’s your first
     challenge.
     First, write the following function:
+
     fun isNumberDivisible(number: Int, divisor: Int): Boolean
+
     You’ll use this to determine if one number is divisible by another. It should return
     true when number is divisible by divisor.
     Hint: You can use the modulo (%) operator to help you out here.
     Next, write the main function:
+
     fun isPrime(number: Int): Boolean
+
     This should return true if number is prime, and false otherwise. A number is prime
     if it’s only divisible by 1 and itself. You should loop through the numbers from 1 to
     the number and find the number’s divisors.
     If it has any divisors other than 1 and itself, then the number isn’t prime. You’ll need
     to use the isNumberDivisible() function you wrote earlier.
     Use this function to check the following cases:
-    isPrime(6) // false
-    isPrime(13) // true
-    isPrime(8893) // true
+
+        isPrime(6) // false
+        isPrime(13) // true
+        isPrime(8893) // true
+
     Hint 1: Numbers less than 0 should not be considered prime. Check for this case at
     the start of the function and return early if the number is less than 0.
     Hint 2: Use a for loop to find divisors. If you start at 2 and end before the number
@@ -31,6 +37,7 @@ import kotlin.math.sqrt
     it as an exercise for you to figure out why. It may help to think of the number 16,
     whose square root is 4. The divisors of 16 are 1, 2, 4, 8 and 16.
 */
+
 /*
     Challenge 2: Recursive functions
     In this challenge, you’re going to see what happens when a function calls itself, a
@@ -43,14 +50,16 @@ import kotlin.math.sqrt
     fun fibonacci(number: Int): Int
     Then, verify you’ve written the function correctly by executing it with the following
     numbers:
-    fibonacci(1) // = 1
-    fibonacci(2) // = 1
-    fibonacci(3) // = 2
-    fibonacci(4) // = 3
-    fibonacci(5) // = 5
-    fibonacci(6) // = 8
-    fibonacci(7) // = 13
-    fibonacci(10) // = 55
+
+        fibonacci(1) // = 1
+        fibonacci(2) // = 1
+        fibonacci(3) // = 2
+        fibonacci(4) // = 3
+        fibonacci(5) // = 5
+        fibonacci(6) // = 8
+        fibonacci(7) // = 13
+        fibonacci(10) // = 55
+
     Hint 1: For values of number less than 0, you should return 0.
     Hint 2: To start the sequence, hard-code a return value of 1 when number equals 1 or
     2.
