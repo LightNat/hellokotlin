@@ -1,6 +1,6 @@
 # hellokotlin
 
-  - A brief documentation for beginners in kotlin. The following information is included:
+  - A brief documentation for beginners in kotlin. Check below for more information.
 <br>
 
 **<i>What You Need</i>**
