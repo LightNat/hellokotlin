@@ -50,7 +50,12 @@
 - Functions as variables
 <br>
 
-**Chapter 7**
+**<h3>Chapter 7 (Nullability)</h3>**
+- Introducing null
+- Introducing nullable types
+- Checking for null
+- Safe calls
+- Elvis operator
 <br>
 
 **Chapter 8**
