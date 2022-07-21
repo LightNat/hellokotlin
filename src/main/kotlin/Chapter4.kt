@@ -4,6 +4,7 @@ import java.util.Random     //this library is better than the previous one if yo
 
 fun main()
 {
+    //comparison operators
     val yes: Boolean = true
     val no: Boolean = false
 
@@ -16,6 +17,7 @@ fun main()
     //val yes = true
     //val no = false
 
+    //Boolean operators
     val doesOneEqualTwo = (1 == 2)
     println(doesOneEqualTwo)    //false
 
@@ -29,6 +31,7 @@ fun main()
     val isOneLessThanTwo = (1 < 2)      //true
     println("isOneGreaterThanTwo = $isOneGreaterThanTwo and isOneLessThanTwo = $isOneLessThanTwo")
 
+    //Boolean logic
     val and = true && true
     println(and)        //true
 
@@ -87,6 +90,7 @@ fun main()
 
     val animal = "Fox"
 
+    //The else expression
     if(animal == "Cat" || animal == "Dog")
     {
         println("Animal is a house pet")
@@ -129,7 +133,7 @@ fun main()
         |Max is $max
     """.trimMargin())
 
-    //else if condition
+    //The else if condition
     val hourOfDay = 12
 
     val timeOfDay = if(hourOfDay < 6) "Early morning"
@@ -153,7 +157,7 @@ fun main()
     val answer = if(myAge2 > 13 && myAge2 < 19) "Teenager" else "Not Teenager"
     println(answer)
 
-    //Loops
+    //Loops (while loop)
     var sum = 1
     while (sum < 1000)
     {

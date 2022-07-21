@@ -1,3 +1,4 @@
+//Constants
 const val myNumber: Int = 10
 
 const val myAge: Int = 22   //Mini exercise(1)
@@ -5,6 +6,8 @@ const val testNumber: Int = 21  //Mini exercise(3 part A)
 const val evenOdd = testNumber % 2  //Mini exercise(3 part B)
 
 fun main() {
+
+    //Decimal Numbers
     println(22 / 7)
 
     //Using format specifier
@@ -17,10 +20,12 @@ fun main() {
     println(myNumber)
     //myNumber = 20
 
+    //Variables
     var variableNumber: Int = 20
     variableNumber = 22
     println(variableNumber)
 
+    //Increment (& Decrement)
     var counter = 0
     counter++   //increments the value by 1
     counter += 1    //increments the value by 1

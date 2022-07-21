@@ -72,7 +72,7 @@ fun multiply(number: Int, multiplier: Int):Int
     return  number * multiplier
 }
 
-//Return Values using pairs
+//Return Values using pair
 fun multiplyAndDivide(number: Int, factor: Int): Pair<Int, Int>
 {
     return Pair(number * factor, number / factor)

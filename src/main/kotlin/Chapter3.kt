@@ -1,15 +1,18 @@
 fun main()
 {
+    //Type conversion
     var integer: Int = 100
     var decimal: Double = 12.5
     integer = decimal.toInt()
     println(integer)
 
+    //Operators with mixed type
     val hourlyRate: Double = 19.5
     val hoursWorked: Int = 10
     val totalCost: Double = hourlyRate * hoursWorked.toDouble()
     println(totalCost)
 
+    //Type inference
     //press (CTRL + SHIFT + P)---------------
                                           //|
     val typeInferredInt = 42    //<---------|
@@ -25,7 +28,7 @@ fun main()
     val avg1 = (age1.toDouble() + age2.toDouble()) / 2
     println(avg1)
 
-
+    //Characters and Strings
     val characterA: Char = 'a'
     val stringDog: String = "Dog"
 

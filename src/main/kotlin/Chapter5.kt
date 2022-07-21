@@ -113,6 +113,7 @@ fun main()
     println(mySum)          //2
     println(sum)            //30
 
+
     //Labeled statements (using continue)
     /*
     Table:
@@ -204,11 +205,12 @@ fun main()
     }
     println("\n\nThe sum would be: $sum")     //322
 
-    //Display a multiplication table
-    for(row in 0..7)
+    //Display a multiplication table (from 1 - 12)
+    println("\n\nCreating a Multiplication Table")
+    for(row in 1..12)
     {
         println("")
-        for(column in 0..7)
+        for(column in 1..12)
         {
             val cube = row * column
             print("$cube\t")
@@ -271,6 +273,7 @@ fun main()
         else -> println("Animal is not a house pet")
     }
 
+    //Returning values
     val numberName = when(number)
     {
         2 -> "two"
@@ -287,7 +290,7 @@ fun main()
                             //if number is were not in (2, 4, 6, 8, 10) then
     println(numberName)     //"Unknown will be the value of numberName"
 
-    //advanced when expressions
+    //Advanced when expressions
     val hourOfDay = 12
     val timeOfDay: String
 
