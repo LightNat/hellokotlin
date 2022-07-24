@@ -12,6 +12,9 @@
 - In Chapter 26, in place of IntelliJ IDEA, you’ll use Android Studio 4.1 or later and Xcode 12.4 or later to build a Kotlin Multiplatform app.
 
 <br>
+<h1>Section I: Kotlin Basics</h1>
+
+<br>
 
 **<h3>Chapter 1 (Kotlin Environment Development)</h3>**
 - print "Hello, kotlin!"
@@ -57,6 +60,9 @@
 - Safe calls
 - Elvis operator
 <br>
+<h1>Section II: Collections & Lambdas</h1>
+
+<br>
 
 **Chapter 8**
 <br>
@@ -65,6 +71,9 @@
 <br>
 
 **Chapter 10**
+<br>
+<h1>Section III: Building Your Own Types</h1>
+
 <br>
 
 **Chapter 11**
@@ -89,6 +98,9 @@
 <br>
 
 **Chapter 18**
+<br>
+<h1>Section IV: Intermediate Topics</h1>
+
 <br>
 
 **Chapter 19**
