@@ -1,6 +1,6 @@
 # hellokotlin
 
-  - A brief documentation for beginners in kotlin. The following information is included:
+  - A brief documentation for beginners in kotlin. Check below for more information.
 <br>
 
 **<i>What You Need</i>**
@@ -10,6 +10,9 @@
 - Java SE Development Kit 8 or later. Most of the code in this book will be run on the Java Virtual Machine or JVM, for which you need a Java Development Kit or JDK. The JDK can be downloaded from Oracle at http://www.oracle.com/technetwork/java/javase/downloads/index.html.
 - In Chapters 24 and 25, you’ll have the option of using a text editor such as Visual Studio Code instead of IntelliJ IDEA.
 - In Chapter 26, in place of IntelliJ IDEA, you’ll use Android Studio 4.1 or later and Xcode 12.4 or later to build a Kotlin Multiplatform app.
+
+<br>
+<h1>Section I: Kotlin Basics</h1>
 
 <br>
 
@@ -50,7 +53,15 @@
 - Functions as variables
 <br>
 
-**Chapter 7**
+**<h3>Chapter 7 (Nullability)</h3>**
+- Introducing null
+- Introducing nullable types
+- Checking for null
+- Safe calls
+- Elvis operator
+<br>
+<h1>Section II: Collections & Lambdas</h1>
+
 <br>
 
 **Chapter 8**
@@ -60,6 +71,9 @@
 <br>
 
 **Chapter 10**
+<br>
+<h1>Section III: Building Your Own Types</h1>
+
 <br>
 
 **Chapter 11**
@@ -84,6 +98,9 @@
 <br>
 
 **Chapter 18**
+<br>
+<h1>Section IV: Intermediate Topics</h1>
+
 <br>
 
 **Chapter 19**
