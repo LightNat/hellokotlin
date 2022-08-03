@@ -61,6 +61,8 @@
     Hint: You can use the Int.MIN_VALUE and Int.MAX_VALUE constants within the
     function.
 */
+import java.util.Random
+val random = Random()
 
 fun main()
 {
@@ -85,9 +87,115 @@ fun main()
     }                                       //2
                                             //2
                                             //3
+
+    println(removeOne(3, oddNumbers))       //3 was removed
+
+    println(remove(4, repeatedFours))       //all items having the value of 4 had been removed
+
+    print(reverse(myArray).joinToString())      //to reverse the contents of the array
+
+    println("")
+
+    println(rand(1, 10))
+
+    println(arrayRandomized.joinToString())
+
+    println("")
+
+    println(minMax?.first)
+    println(minMax?.second)
+
 }
 
-//Line 73 Output:       1
-//Line 82..85 output:   2
-//                      2
-//                      3
+val oddNumbers = listOf(1, 2, 3, 4, 5)
+
+val repeatedFours = listOf(1, 2, 3, 4, 5, 4, 6, 9, 4, 5, 6, 11, 23, 12, 4)
+
+val myArray = arrayOf(2, 4, 6, 8, 10)
+
+val arrayOrdered = arrayOf(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+val arrayRandomized = randomized(arrayOrdered)
+
+val integers = arrayOf(4, -54, -300, 23, 55666, 22, 1, -2223, 33, 11, 500000)
+val minMax = minMax(integers)
+
+
+
+fun removeOne(item: Int, list: List<Int>):List<Int>
+{
+    var mutableList = list.toMutableList()      //convert lists to mutable list
+    mutableList.remove(item)
+    return mutableList.toList()
+}
+
+fun remove(item: Int, list: List<Int>):List<Int>
+{
+    var mutableList = list.toMutableList()
+    while(item in mutableList)              //using while loop, this function will be able to remove those repeated values
+    {
+        mutableList.remove(item)
+    }
+    return mutableList.toList()
+}
+
+fun reverse(array: Array<Int>): Array<Int>
+{
+    val newArray = Array(array.size, {0})
+    for(i in 0 until array.size)
+    {
+        newArray[i] = array[array.size - i - 1]
+    }
+    return newArray
+}
+
+
+fun rand(from: Int, to: Int) : Int {
+    return random.nextInt(to - from) + from
+}
+
+fun randomized(array: Array<Int>): Array<Int> {
+    val newArray = Array(array.size, { 0 })
+    val usedIndices = mutableListOf<Int>()
+
+    for (i in 0 until array.size) {
+        var randomIndex = 0
+        while (true) {
+            randomIndex = rand(0, array.size)
+            if (randomIndex !in usedIndices) {
+                usedIndices.add(randomIndex)
+                break
+            }
+        }
+        newArray[i] = array[randomIndex]
+    }
+
+    return newArray
+}
+
+fun minMax(numbers: Array<Int>): Pair<Int, Int>?
+{
+    if(numbers.isEmpty())
+    {
+        return null
+    }
+
+    var min = Int.MIN_VALUE
+    var max = Int.MAX_VALUE
+
+    for(number in numbers)
+    {
+        if(number < min)
+        {
+            min = number
+        }
+        if (number > max)
+        {
+            max = number
+        }
+    }
+
+    return Pair(min, max)
+}
+
+
+
