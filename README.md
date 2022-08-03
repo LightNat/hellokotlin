@@ -64,7 +64,14 @@
 
 <br>
 
-**Chapter 8**
+**<h3>Chapter 8 (Arrays & Lists)</h3>**
+- Arrays
+- Lists
+- Accessing elements
+- Modifying lists
+- Updating elements
+- Iterating through a list
+- Nullability and collection types
 <br>
 
 **Chapter 9**
