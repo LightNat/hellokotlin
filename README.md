@@ -73,3 +73,16 @@
 - Iterating through a list
 - Nullability and collection types
 <br>
+
+**<h3>Chapter 9 (Maps & Sets)</h3>**
+- Creating maps
+- Accessing values
+- Modifying mutable maps
+- Iterating through maps
+- Running time for map operations
+- Sets
+- Creating Sets
+- Accessing elements
+- Adding and removing elements
+- Running time for set operations
+<br>
