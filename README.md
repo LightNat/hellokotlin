@@ -8,8 +8,6 @@
 - IntelliJ IDEA Community Edition 2020.3.2 or later, available at https://www.jetbrains.com/idea/. This is the environment in which you’ll develop the sample code in this book.
 - Kotlin Plugin for IntelliJ IDEA v1.4.20 or later, installed (if not included by default) by going to IntelliJ IDEA Preferences on macOS (or Settings on Windows/ Linux) and choosing Plugins, then searching on “Kotlin”.
 - Java SE Development Kit 8 or later. Most of the code in this book will be run on the Java Virtual Machine or JVM, for which you need a Java Development Kit or JDK. The JDK can be downloaded from Oracle at http://www.oracle.com/technetwork/java/javase/downloads/index.html.
-- In Chapters 24 and 25, you’ll have the option of using a text editor such as Visual Studio Code instead of IntelliJ IDEA.
-- In Chapter 26, in place of IntelliJ IDEA, you’ll use Android Studio 4.1 or later and Xcode 12.4 or later to build a Kotlin Multiplatform app.
 
 <br>
 <h1>Section I: Kotlin Basics</h1>
