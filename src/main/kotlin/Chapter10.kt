@@ -1,5 +1,3 @@
-import java.lang.NullPointerException
-
 fun main()
 {
     //Lambda basics
