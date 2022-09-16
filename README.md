@@ -86,3 +86,9 @@
 - Adding and removing elements
 - Running time for set operations
 <br>
+
+**<h3>Chapter 10 (Lambdas)</h3>**
+- Lambda basics
+- Custom sorting with lambdas
+- Iterating over collections with lambdas
+<br>
