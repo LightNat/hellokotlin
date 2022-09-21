@@ -89,4 +89,5 @@
 - Lambda basics
 - Custom sorting with lambdas
 - Iterating over collections with lambdas
+- sample
 <br>
